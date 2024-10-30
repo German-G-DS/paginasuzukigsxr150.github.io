@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario Registro</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"
+	>
+  <link rel="stylesheet" type="text/css" href="CSS/botstrap.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registro.html">REGISTRO</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="button">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<section class="form-register">
+<h4>Formulario Registro</h4>
+<div class="container-fluid mt-3">
+<form action="index.html">
+  <label class="label1">tipos de documento:</label>
+  <br>
+  <select>
+    <option>Seleccione</option>
+
+    <option value="CC">Cedula de ciudadania</option>
+    <option value="CE">Cedula extranjeria</option>
+    <option value="TI">Tarjeta de identidad</option>
+    <option value="PSS">Pasaporte</option>
+  </select>
+  <br>
+  <br>
+  <label class="label1">Id:</label>
+  <br>
+<input type="number" name="ID_Usuario" required> <br>
+  <br>
+  <label class="label1">Primer Nombre:</label>
+  <br>
+<input type="text" name="P_Nombre" required> <br>
+<br>
+  <label class="label2">Segundo Nombre:</label>
+  <br>
+<input type="text" name="S_Nombre"> <br>
+<br>
+<label class="label1">Primer Apellido:</label>
+<br>
+<input type="text" name="P_Apellido" required>
+  <br>
+  <br>
+  <label class="label2">Segundo Apellido:</label>
+  <br>
+<input type="text" name="S_Apellido">
+  <br>
+<br>
+  <label class="label1">Fecha de nacimiento</label>
+  <br>
+<input type="date" name="SFecha_nacimiento" required>
+  <br>
+  <br>
+  <label class="label1">Correo Electronico</label>
+  <br>
+<input type="email" name="SFecha_nacimiento" required>
+  <br>
+  <br>
+  <label class="label1">Numero telefonico</label>
+  <br>
+<input type="number" name="numero_telefono" required>
+  <br>
+  <br>
+  <label class="label1">Ingrese su genero</label>
+<br>
+<br>
+<form>
+   <input class="label1" type="radio" id="Genero" name="fav_language" value="HTML" required>
+   <label class="label1" for="Genero">Femenino</label><br>
+   <input type="radio" id="css" name="fav_language" value="CSS">
+   <label class="label1" for="Genero">Masculino</label><br>
+   <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+   <label class="label1" for="Genero">No especifica</label>
+<br>
+<br>
+  <input class="btn btn-success" type="submit" value="Registrar Usuario" >
+</form> 
+</form>
+</div>
+</body>
+</html>
